@@ -1,18 +1,20 @@
 var flag=false
-
+var num ='';
 function buttonclick(val)
 {
+    num = val;
     var screen= document.getElementById("screen");
-    if(val == '.' && flag != true ){
-        screen.value+=val;
+    if(val == '.' && flag !=true ){
+        screen.value+=num;
         flag=true;
     }else if(val == '+' || val == '-' || val == '*' || val == '/'){
     
-        screen.value+=val 
+        screen.value+=num 
         flag=false;
     }else{
-
-        screen.value+=val
+        if(val != '.'){
+        screen.value+=num;
+        }
     }
 
 }
@@ -25,4 +27,6 @@ function equalclick()
 
     var result=eval(text)
     document.getElementById("screen").value=result
+    num ='';
+
 }
