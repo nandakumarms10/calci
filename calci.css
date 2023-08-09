@@ -1,0 +1,51 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    background: radial-gradient(ellipse farthest-corner
+    at 20% 65%, #5e6470, #161213);
+  border-radius: 20px;
+  color: white;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+#screen{
+    width: 350px;
+    height: 100px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        text-align: right;
+        font-size: 80px;
+        background: rgb(205,224,206);
+        box-shadow: 0 -3px 5px -3px rgba(255, 255, 255, .2),
+              5px 0 3px -5px rgba(255, 255, 255, .8),
+              0 2px 5px -2px rgba(0, 0, 0, .5),
+              -3px 0 3px -1px rgba(0, 0, 0, .8),
+              inset 0 -5px 3px -3px rgba(0, 0, 0, .5),
+              inset 5px 0 5px -2px rgba(0, 0, 0, .8);
+        
+        
+}
+.row{
+    
+    margin: 28px;
+}
+.btn{
+    width: 70px;
+    height: 60px;
+    margin-left: 5px;
+    background: linear-gradient(25deg, #525a65, #3b424c);
+    color: rgba(255, 255, 255, .8);
+    border-radius: 7px;
+    box-shadow: inset 2px -1px 1px 0 rgba(255, 255, 255, .2),
+    inset -3px 2px 5px 0 rgba(0, 0, 0, .2),
+    4px 1px 1px 0 rgba(0, 0, 0, .5),
+    -1px -3px 1px 0 rgba(0, 0, 0, .5),
+    4px -3px 1px 0 rgba(0, 0, 0, .5),
+    -1px -1px 5px 0 rgba(0, 0, 0, .5);
+    
+}
